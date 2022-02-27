@@ -22,14 +22,15 @@ The bot fetches the Random Dog API, downloads the image using the link provided 
 # 📝 To-Do List
 🗹 Pet Dogs All Day; <br>
 🗹 Fetch and tweet a dog pictgure per hour; <br>
-🗹 Deploy using Heroku; <br>
+☐ Link APP to Firebase; <br>
+☐ Deploy using Heroku; <br>
 ☐ Add On Demand Picture Fetch on reply; <br>
 
 
 <br>
 
 # ⚒️ Built With
- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
+ ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
  <br>
  [Random Dog Api](https://dog.ceo/dog-api/)
  <br>
