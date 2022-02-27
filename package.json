@@ -1,0 +1,23 @@
+{
+  "name": "twitter_bot_dogs_per_hour",
+  "version": "1.0.0",
+  "description": "A bot that tweets a dog picture every hour.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+    
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "file-type": "^17.1.1",
+    "node-fetch": "2.0",
+    "twitter-api-v2": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
