@@ -10,27 +10,41 @@
 <br>
 
 # 📖 Study Case
-I was looking for a project to practice the creation and deployment of a Node.JS App and I was curious on how to build a Twitter Bot. So I decided to join both and build this. And I mean... dogs.
+I was looking for a project to practice the creation and deployment of a Node.JS App and I was curious on how to build a Twitter Bot. So I decided to join both, practice NodeStreams, automation and Heroku Deployment.
 
 <br>
 
 # 🤖 What the does the bot do?
-The bot fetches the Random Dog API, downloads the image using the link provided by the API. After that, it uploads the picture to Twitter and tweets the picture. After the picture is tweeted, it deletes the picture from the server.
+v0.5 - The bot fetches the Random Dog API and downloads the image to my computer. From that, it uploads the picture to Twitter server. With that done, the bot tweets the picture. It happens once every hour.
 
 <br>
 
 # 📝 To-Do List
-🗹 Pet Dogs All Day; <br>
-🗹 Fetch and tweet a dog pictgure per hour; <br>
-☐ Link APP to Firebase; <br>
-☐ Deploy using Heroku; <br>
-☐ Add On Demand Picture Fetch on reply; <br>
+### v0.1 Check List:
+🗹 Pet Dogs All Day;
+<br>
+### v0.5 Check List:
+🗹 Fetch and download a randon dog picture;
+<br>
+🗹 Tweet the dog picture from my computer;
+<br>
+### v0.8 Check List:
+☐ Stream pictures from the API to Twitter Server;
+<br>
+### v1.0 Check List:
+☐ Deploy using Heroku;
+<br> 
+### v1.1 Check List:
+☐ Add On Demand Picture Fetch on reply;
+<br>
+<br>
+Got any ideas for new versions? Please, let me know!
 
 
 <br>
 
 # ⚒️ Built With
- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
+ ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)  ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)
  <br>
  [Random Dog Api](https://dog.ceo/dog-api/)
  <br>

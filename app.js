@@ -1,4 +1,4 @@
-import { TwitterApi } from "twitter-api-v2";
+import DogsPerHourBot from "./config.js";
 import fetch from "node-fetch";
 import { fileTypeFromFile } from "file-type";
 import "dotenv/config";
@@ -6,13 +6,6 @@ import fs from "fs";
 import Stream from "stream";
 import http from "http";
 import https from "https";
-
-const DogsPerHourBot = new TwitterApi({
-	appKey: process.env.API_KEY,
-	appSecret: process.env.API_KEY_SECRET,
-	accessToken: process.env.ACCESS_TOKEN,
-	accessSecret: process.env.ACCESS_TOKEN_SECRET
-});
 
 var downloadImageFromURL = (url, filename, callback) => {
 	var client = http;
