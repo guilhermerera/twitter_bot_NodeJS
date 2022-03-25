@@ -1,6 +1,7 @@
 import DogsPerHourBot from "./config.js";
 import "dotenv/config";
 import axios from "axios";
+import http from "http";
 
 function postDogsPerHour() {
 	axios
@@ -25,3 +26,5 @@ postDogsPerHour();
 setInterval(() => {
 	postDogsPerHour();
 }, 3600000);
+
+http.createServer(function (request, response) {}).listen(process.env.PORT);

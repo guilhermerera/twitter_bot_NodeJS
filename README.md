@@ -15,6 +15,8 @@ I was looking for a project to practice the creation and deployment of a Node.JS
 <br>
 
 # 🤖 What the does the bot do?
+v0.1 - Now the bot is hosted on Heroku.
+
 v0.8 - Using AXIOS, the bot fetches the Dog API and buffers the image to Twitter Server. After that, it tweets the image.
 
 v0.5 - The bot fetches the Random Dog API and downloads the image to my computer. From that, it uploads the picture to Twitter server. With that done, the bot tweets the picture. It happens once every hour.
@@ -36,7 +38,7 @@ v0.5 - The bot fetches the Random Dog API and downloads the image to my computer
 🗹 Tweet the buffered picture;
 <br>
 ### v1.0 Check List:
-☐ Deploy using Heroku;
+🗹  Deploy using Heroku;
 <br> 
 ### v1.1 Check List:
 ☐ Add On Demand Picture Fetch on reply;
