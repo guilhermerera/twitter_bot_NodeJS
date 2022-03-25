@@ -15,7 +15,7 @@ I was looking for a project to practice the creation and deployment of a Node.JS
 <br>
 
 # 🤖 What the does the bot do?
-v0.1 - Now the bot is hosted on Heroku.
+v1.0 - Now the bot is hosted on Heroku.
 
 v0.8 - Using AXIOS, the bot fetches the Dog API and buffers the image to Twitter Server. After that, it tweets the image.
 
