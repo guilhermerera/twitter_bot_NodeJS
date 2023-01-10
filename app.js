@@ -1,6 +1,8 @@
+import axios from "axios";
+import express, { application } from "express";
+
 import DogsPerHourBot from "./config.js";
 import "dotenv/config";
-import axios from "axios";
 
 function createBufferFromImageData(imageData) {
 	return Buffer.from(imageData);
@@ -57,3 +59,12 @@ postRandomDogImageToTwitter();
 setInterval(() => {
 	postRandomDogImageToTwitter();
 }, 3600000);
+
+const app = express();
+app.get("/", (req, res) => {
+	res.send("Find me at https://twitter.com/dogsperhour");
+});
+
+app.listen(3000, () => {
+	console.log("Server Running");
+});
