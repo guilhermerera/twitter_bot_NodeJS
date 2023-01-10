@@ -1,24 +1,24 @@
 {
-  "name": "twitter_bot_dogs_per_hour",
-  "version": "1.0.0",
-  "description": "A bot that tweets a dog picture every hour.",
-  "main": "app.js",
-  "engines": {
-    "node": "16.13.2"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
-  "type": "module",
-  "author": "Guilherme Ferreira",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.26.1",
-    "dotenv": "^16.0.0",
-    "twitter-api-v2": "^1.11.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+	"name": "twitter_bot_dogs_per_hour",
+	"version": "1.0.0",
+	"description": "A bot that tweets a dog picture every hour.",
+	"main": "app.js",
+	"engines": {
+		"node": "16.18.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js"
+	},
+	"type": "module",
+	"author": "Guilherme Ferreira",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"dotenv": "^16.0.0",
+		"twitter-api-v2": "^1.11.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
 }
