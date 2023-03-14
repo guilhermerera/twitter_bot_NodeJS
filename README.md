@@ -1,3 +1,8 @@
+### Deprecated since Twitter API will be paid in the near future.
+### [@dogsperhour](https://twitter.com/dogsperhour) still exists, but the bot is paused.
+### It was fun while it lasted. :)
+___
+
 # 🤖 Twitter Bot: Dogs Per Hour 🐶
 
 ## Project created to practice NodeJS automation and server apps.
